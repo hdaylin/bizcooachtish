@@ -57,7 +57,8 @@ html{
 }
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lora', sans-serif; 
+  /* Lato */
   font-size: 1rem;
   line-height: 1.625em;
   color:#767676;
@@ -71,11 +72,11 @@ body{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #D4F21B;
+  background: #f20089;
 }
 
 ::selection{
-  background-color:#D4F21B;
+  background-color:#f20089;
   color:#000;
 }
 
@@ -98,7 +99,7 @@ body{
 h1,
 .h1{ 
   position: relative;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif; /* Lato*/
   font-size: 5.725rem;
   font-weight: 700;
   line-height: 1;
@@ -108,7 +109,7 @@ h1,
 h2,
 .h2{ 
   position: relative;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 700;
   font-size: 2.7rem;
   line-height: 1.2;
@@ -119,7 +120,7 @@ h2,
 
 h3,
 .h3{ 
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 700;
   font-size: 1.925rem;
   line-height: 1.25;
@@ -129,7 +130,7 @@ h3,
 
 h4,
 .h4{ 
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 600;
   font-size: 1.525rem;
   line-height: 1.2;
@@ -139,7 +140,7 @@ h4,
 
 h5,
 .h5{ 
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.2;
@@ -149,7 +150,7 @@ h5,
 
 h6,
 .h6{ 
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 1px;
@@ -208,7 +209,7 @@ a {
 
 a:hover,
 a:focus {
-  color:#D4F21B;
+  color:#f20089;
   outline: none;
 }
 
@@ -300,7 +301,7 @@ label.error{
   font-family: 'Karla', sans-serif;
   position: relative;
   display: inline-block;
-  border:0.2em solid #D4F21B;
+  border:0.2em solid ##04173E;
   border-radius: 0;
   padding:1em 2.4em 1em;
   font-size: 0.875em;
@@ -310,7 +311,7 @@ label.error{
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-decoration: none;
-  background-color:#D4F21B;
+  background-color:#EBD084;
   font-weight: 700;
   border-width: 1px;
   -webkit-transition: all .3s ease-out!important;
@@ -321,8 +322,8 @@ label.error{
 .btn:focus,
 .btn:active{
   color: #000;
-  background-color: #ecff73;
-  border-color:#ecff73;
+  background-color: #EBF2F9;
+  border-color:#EBF2F9;
   -webkit-box-shadow:none;
   box-shadow: none;
   outline: none!important;
@@ -435,7 +436,7 @@ ion-icon{
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #D4F21B;
+  background-color: #f20089;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -506,12 +507,12 @@ ion-icon{
   color:#5c656d!important;
   font-size: 16px;
   line-height: 24px;
-  font: 'Lato', sans-serif;
+  font: 'Lora', sans-serif; /* Lato */
 }
 
 
 .text-pink{
-  color:#f20089!important;
+  color:#04173E!important;
   font: 'Lato', sans-serif;
 }
 
@@ -529,7 +530,7 @@ ion-icon{
 }
 
 .text-primary{
-  color:#D4F21B!important;
+  color:#fff!important;
 }
 
 .text-primary2{
@@ -592,7 +593,7 @@ ion-icon{
 
 .navbar-brand{
   position: absolute;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-size:1.875rem;
   font-weight: 700;
   color:#fff;
@@ -645,7 +646,7 @@ ion-icon{
 }
 
 .navbar-bottom{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lora', sans-serif;
   color: #000;
 }
 
@@ -674,7 +675,7 @@ ion-icon{
 }
 
 .social-icons ion-icon:hover{
-  color: #D4F21B;
+  color: #EFD5D3;
 }
 
 .navbar-bottom-white,
@@ -990,7 +991,7 @@ ion-icon{
 h1 + .line{
   margin-top:15vh;
   width: 25%;
-  border-top:3px  solid #D4F21B;
+  border-top:3px  solid #EFD5D3;
   transition:all .3s ease;
 }
 
@@ -1090,7 +1091,7 @@ h1 + .line{
   height: 0;
   content: '';
   transition:all .3s ease;
-   background-color: #D4F21B;
+   background-color: #f20089;
 }
 
 .progress-nav li:before{
@@ -1189,7 +1190,7 @@ h1 + .line{
 }
 
 .owl-dot.active span{
-  background-color: #D4F21B;
+  background-color: #f20089;
 }
 
 .owl-nav{
@@ -1219,7 +1220,7 @@ h1 + .line{
 .owl-prev:hover,
 .owl-next:hover{
   opacity: 1!important;
-  color:#D4F21B!important;
+  color:#f20089!important;
 }
 
 
@@ -1396,7 +1397,7 @@ h1 + .line{
 }
 
 .project-box:hover{
-  background: #D4F21B;
+  background: #EBD084;
   text-decoration: none;
   border-color: transparent;
 }
@@ -1514,7 +1515,7 @@ h1 + .line{
 
 .price-tables-btn:active, .price-tables-btn:focus, .price-tables-btn:hover {
 	color: #fff;
-	background-color: #D4F21B;
+	background-color: #04173E;
 }
 
 
@@ -1659,7 +1660,7 @@ h1 + .line{
   padding: 1.5rem;
 }
 .card .card-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lora", Helvetica, Arial, sans-serif;
   padding: 1.5rem;
 }
 .card.card-plain {
@@ -1736,7 +1737,7 @@ h1 + .line{
   background: rgba(0, 0, 0, 0.2);
 }
 .card.card-background.card-background-mask-primary:after {
-  background-image: linear-gradient(195deg, #D4F21B 0%, #D4F21B 100%);
+  background-image: linear-gradient(195deg, #f20089 0%, #f20089 100%);
   opacity: 0.85;
 }
 .card.card-background.card-background-mask-secondary:before {
